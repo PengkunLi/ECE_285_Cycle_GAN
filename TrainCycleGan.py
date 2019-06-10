@@ -53,12 +53,12 @@ print(device)
 # In[53]:
 
 
-# images_dir = wikiar_dir
-# images_dir = os.path.join(images_dir, 'wikiart.zip')
-# import zipfile
-# zip_ref = zipfile.ZipFile(images_dir, 'r')
-# zip_ref.extractall(my_dir)
-# zip_ref.close()
+images_dir = wikiar_dir
+images_dir = os.path.join(images_dir, 'wikiart.zip')
+import zipfile
+zip_ref = zipfile.ZipFile(images_dir, 'r')
+zip_ref.extractall(my_dir)
+zip_ref.close()
 
 
 # In[54]:
