@@ -24,6 +24,8 @@ utils.py            -- Include auxiliary functions which are needed during the t
 
 check0              -- Include some files which are needed when implement demo. 
 
+## code reference:
+
 Also, you need to download the checkpoint.pth.tar file into the check0 file if you want to implement demo.ipynb. The download dir is :https://drive.google.com/open?id=18M5HZIJX1iyvt95PmyJoXXyOr3r1AER0
 
 NeuralTransfer.ipynb is constructed based on this website: https://pytorch.org/tutorials/advanced/neural_style_tutorial.html.
