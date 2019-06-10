@@ -1,0 +1,18 @@
+opt({'epoch': 0, 'n_epochs': 10, 'batchSize': 5, 'lr': 0.0002, 'decay_epoch': 1, 'size': 190, 'input_nc': 3, 'output_nc': 3, 'lambda_identity': 0.5, 'lambda_A': 10, 'lambda_B': 10, 'cuda': 'cuda', 'generator_A2B': 'output0/netG_A2B.pth', 'generator_B2A': 'output0/netG_B2A.pth', 'discriminator_A': 'output0/netD_A.pth', 'discriminator_B': 'output0/netD_B.pth', 'loss_dir': 'output0/'})
+Optimizer_G(Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.5, 0.999)
+    eps: 1e-08
+    lr: 0.0002
+    weight_decay: 0
+))
+Optimizer_D(Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.5, 0.999)
+    eps: 1e-08
+    lr: 0.0002
+    weight_decay: 0
+))
+
