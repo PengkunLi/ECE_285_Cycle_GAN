@@ -23,3 +23,5 @@ models.py           -- Basic architectures of Cycle-GAN (Generators and Discrimi
 utils.py            -- Include auxiliary functions which are needed during the training process of Cycle-GAN.
 
 check0              -- Include some files which are needed when implement demo. 
+
+Also, you need to download the checkpoint.pth.tar file into the check0 file if you want to implement demo.ipynb. The download dir is :https://drive.google.com/open?id=18M5HZIJX1iyvt95PmyJoXXyOr3r1AER0
