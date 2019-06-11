@@ -117,7 +117,7 @@ class ourdataset(td.Dataset):
                 if '.jpg' not in files_files[idx]:
                     continue
                 self.img_flickr_path.append(os.path.join(files_images_dir, files_files[idx]))
-
+        random.seed(10)
         random.shuffle (self.img_flickr_path)
         file_list = ["Abstract_Expressionism", "High_Renaissance", "Impressionism"]
         self.img_wikiart_path = []
