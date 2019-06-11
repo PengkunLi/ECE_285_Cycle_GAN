@@ -33,7 +33,7 @@ Also, you need to download the checkpoint.pth.tar file into the check0 file if y
 
 NeuralTransfer.ipynb is constructed based on this website: https://pytorch.org/tutorials/advanced/neural_style_tutorial.html.
 
-model.py and utils.py are constructed based on the code in this github respository: https://github.com/aitorzip/PyTorch-CycleGAN.git
+model.py, utils.py, TraninCycleGan.py, and NewCycleGAN.ipynb are constructed based on the code in this github respository: https://github.com/aitorzip/PyTorch-CycleGAN.git
 
 And NewCycleGAN.ipynb and TraninCycleGan.py use the checkpoint method mentioned in the nntools.py
 
